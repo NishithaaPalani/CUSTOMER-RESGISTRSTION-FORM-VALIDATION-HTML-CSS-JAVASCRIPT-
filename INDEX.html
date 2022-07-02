@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="validate0490.js"></script>
+<title>Registration Form(20181CSE0490)</title>
+<style type="text/css">
+body{ 
+font-family: Calibri; 
+background-color: rgb(114, 21, 65);
+color: rgb(240, 171, 194);
+} 
+input[type="text"] { 
+width: 250px; 
+} 
+input[type="submit"], input[type="reset"] { 
+width: 77px; 
+height: 27px; 
+position: relative;left: 180px; 
+} 
+form{ 
+text-align: center; 
+font-family: Calibri; 
+font-size: 20px; 
+border: 8px solid rgb(243, 238, 240); 
+width: 600px; 
+margin: 20px auto; 
+background-color: rgb(240, 171, 194);
+color: rgb(114, 21, 65);
+} 
+td { 
+padding: 10px; 
+} 
+td:first-child { 
+text-align: right; 
+font-weight: bold; 
+} 
+td:last-child { 
+text-align: left; 
+}
+</style>
+</head>
+
+
+<body>
+<center><h1> CUSTOMER RESGISTRSTION FORM VALIDATION</h1></center>
+<hr>
+<form method="" action="" name="reg_form" onsubmit="return validate()">
+<h2>Registration Form</h2>
+<table>
+<tr>
+<td><label>First Name: </label></td>
+<td>
+<input type="text" name="fname" id="fname" placeholder="First 
+Name">
+</td>
+</tr>
+<tr>
+<td><label>Last Name: </label></td>
+<td>
+<input type="text" name="lname" id="lname" placeholder="Last 
+Name">
+</td>
+</tr>
+<tr>
+<td><label>Password: </label></td>
+<td>
+<input type="text" name="pass" id="pass" placeholder="typr 
+password">
+</td>
+</tr>
+<tr>
+<td><label>BANK NAME: </label></td>
+<td>
+<select name="course" >
+<option value="select course" id="ddlVeiw">select bank 
+name</option>
+<option value="0">HSBC</option>
+<option value="1">SBI</option>
+<option value="2">PNB</option>
+<option value="3">ICIC</option>
+</select >
+</td>
+</tr>
+<tr>
+<td><label>Mode of payment: </label></td>
+<td>
+<input type="radio" name="card" value="card">Debit card 
+<input type="radio" name="card" value="cardc">Credit card 
+</td>
+</tr>
+NISHITHAA PALANI IT ENDTERM LAB EXAM 20181CSE0490
+
+<tr>
+<td><label>CVV: </label></td>
+<td>
+<input type="text" name="cvv" placeholder="enter 3 digit cvv number "
+id="cvv">
+</td>
+</tr>
+<tr>
+<td>
+<input type="submit" name="submit" onclick="submitBtn()"
+value="Submit">
+<input type="reset" name="reset" value="Reset">
+</td>
+</tr>
+</table>
+<footer>
+<p align="center"><b> NISHITHAA PALANI (20181CSE0490) 07CSE08</b> </p>
+</footer>
+</body>
+</html>
+
